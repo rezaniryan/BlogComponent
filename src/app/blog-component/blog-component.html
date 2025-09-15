@@ -1,0 +1,16 @@
+<div *ngFor="let p of posts" class="post">
+  <h2>{{p.titulo}}</h2>
+  <p><small>{{p.autor}} - {{p.data}}</small></p>
+
+  <img [src]="p.imagem" alt="{{p.titulo}}" class="post-img">
+
+  <p>{{p.conteudo}}</p>
+
+  <button (click)="curtir(p)">Curtir</button> {{p.curtidas}} ❤️
+
+  <div>
+    <input [(ngModel)]="p.novoComentario" placeholder="Comentário">
+    <button (click)="comentar(p)">Enviar</button>
+    <ul><li *ngFor="let c of p.comentarios">{{c}}</li></ul>
+  </div>
+</div>
