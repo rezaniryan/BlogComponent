@@ -14,17 +14,17 @@ export class BlogComponent {
     { 
       titulo: 'Gol CL 1.8 1992', autor: 'Gabriel Alesiunas', data: '15/09/2025',
       conteudo: 'Meu quadrado', curtidas: 0, comentarios: [], novoComentario: '',
-      imagem: 'https://i.ytimg.com/vi/zivtu0H8Bj4/maxresdefault.jpg'
+      imagem: 'img/gol.jpg'
     },
     { 
       titulo: 'Joaninha', autor: 'Ryan Rezani', data: '15/09/2025',
       conteudo: 'Meu redondo', curtidas: 0, comentarios: [], novoComentario: '',
-      imagem: 'https://i.pinimg.com/736x/b2/4e/d2/b24ed2f4e3997e0f202038046de45690.jpg'
+      imagem: 'img/corsa.jpg'
     },
     { 
-      titulo: 'Só a agradecer', autor: 'Debi e Loide', data: '15/09/2025',
-      conteudo: 'Comprei minha primeira nave! ', curtidas: 0, comentarios: [], novoComentario: '',
-      imagem: 'https://i.redd.it/1fhqc0c6au2c1.jpg'
+      titulo: 'As lasanhas', autor: 'Garage dos baixos', data: '15/09/2025',
+      conteudo: 'Rolezin', curtidas: 0, comentarios: [], novoComentario: '',
+      imagem: 'img/carros.jpg'
     }
   ];
 
